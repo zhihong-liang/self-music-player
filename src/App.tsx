@@ -1,9 +1,12 @@
-import React from 'react';
+// import React from 'react';
+// import LeftPane from 'business/leftPane/index'
+// import RightPane from 'business/rightPane/index'
 
 function App() {
   return (
     <div>
-      leftPane
+      {/* <LeftPane /> */}
+      {/* <RightPane /> */}
     </div>
   );
 }

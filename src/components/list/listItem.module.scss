@@ -1,0 +1,27 @@
+.h-listItem {
+  line-height: 40px;
+  height: 40px;
+  width: 100%;
+  cursor: pointer;
+
+  &:hover {
+    border-right: 3px solid #FF7E3A;
+  }
+}
+
+.h-listItem-icon {
+  color: #2E3271;
+  margin: 0 10px 0 5px;
+}
+
+.h-listItem-text {
+  margin-left: 10px;
+  display: block;
+  width: 100%;
+  color: #2E3271;
+  font-size: 15px;
+
+  &:hover {
+    color: #FF7E3A
+  }
+}

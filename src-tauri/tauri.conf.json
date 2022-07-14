@@ -56,10 +56,10 @@
     "windows": [
       {
         "fullscreen": false,
-        "height": 600,
+        "height": 960,
         "resizable": true,
         "title": "HCloud Music",
-        "width": 800
+        "width": 1440
       }
     ]
   }
