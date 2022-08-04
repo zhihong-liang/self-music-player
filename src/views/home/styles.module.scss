@@ -6,9 +6,11 @@
 }
 
 .leftPane {
-  width: 25%;
+  width: 20%;
+  border-right: 1px solid rgba($color: #F36921, $alpha: 0.35);
 }
 
 .rightPane {
-  width: 75%;
+  width: 80%;
+  background-color: #ECF2FD;
 }

@@ -1,0 +1,42 @@
+.rankList {
+  background-color: #fff;
+  opacity: 0.8;
+  border-radius: 15px;
+  margin: 20px 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+
+.rankList-Top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topFiftyText {
+  color: #2E3271;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  width: 50px;
+  margin: 0 10px;
+}
+
+.rankList-body {
+  height: 200px;
+  padding: 15px 0;
+}
+
+.rankListBodyContent {
+  display: flex;
+  justify-content: space-around;
+}

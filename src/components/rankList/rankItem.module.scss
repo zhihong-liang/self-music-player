@@ -1,0 +1,21 @@
+.rankItem {
+  height: 200px;
+}
+
+.bgmImgBox {
+  position: relative;
+}
+
+.playBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba($color: #7C8DB5, $alpha: 0.75);
+  opacity: 0.75;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+}
