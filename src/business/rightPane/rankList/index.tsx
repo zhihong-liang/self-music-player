@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react'
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-import RankItem from "./rankItem"
+import RankItem from "components/rankListItem/rankItem"
 
 import styles from './styles.module.scss'
 

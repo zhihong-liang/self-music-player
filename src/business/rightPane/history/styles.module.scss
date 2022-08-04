@@ -1,0 +1,37 @@
+.history-box {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  height: 60px;
+  padding: 0 20px;
+}
+
+.historyText {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2E3271;
+}
+
+.content {
+  height: 370px;
+  background: rgba($color: #fff, $alpha: 0.8);
+  overflow: auto;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgba($color: #B9C0DE, $alpha: 0.75);
+  }
+}
+
+// .historyList {
+//   height: auto;
+// }

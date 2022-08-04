@@ -2,3 +2,18 @@
   margin: 30px 20px;
   background-color: #ECF2FD;
 }
+
+.header {
+  height: 10%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90%;
+}
+
+.footer {
+  height: 10%;
+}

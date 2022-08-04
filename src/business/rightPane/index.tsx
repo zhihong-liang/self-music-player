@@ -1,13 +1,16 @@
-import React from 'react'
-import Rpane from "layout/rPane"
-import RankList from "components/rankList/index"
-import Header from "./header/index"
 import alMusicGenre from 'assets/img/AlMusicGenre.png'
 import pop from 'assets/img/Pop.png'
 import hiphop from 'assets/img/HipHop.png'
 import rock from 'assets/img/Rock.png'
 import rbSoul from 'assets/img/R&BSoul.png'
 import country from 'assets/img/Country.png'
+
+import Rpane from "layout/rPane"
+import Header from "./header/index"
+import RankList from "./rankList/index"
+import History from './history/index'
+
+import style from './styles.module.scss'
 
 const index = () => {
   const dataList = [
@@ -42,7 +45,19 @@ const index = () => {
   return (
     <Rpane header={header}>
 
-      <RankList list={dataList} />
+      <div className={style['rp-ranklist']}>
+        <RankList list={dataList} />
+      </div>
+
+      <div className={style['rp-content']}>
+        <div className={style["history"]}>
+          <History></History>
+        </div>
+
+        <div className={style["music-play"]}>
+          222
+        </div>
+      </div>
 
     </Rpane>
   )

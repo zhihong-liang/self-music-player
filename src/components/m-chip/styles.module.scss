@@ -1,0 +1,24 @@
+.m-chip {
+  cursor: pointer;
+  margin-right: 15px;
+  box-shadow: 0 5px 10px rgba($color: #979797, $alpha: 0.8);
+}
+
+.my-chip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 32px;
+  height: 27px;
+  min-width: 40px;
+  border-radius: 16px;
+  background: #ffffff;
+}
+
+.labelText {
+  display: inline-block;
+  font-size: 14px;
+  min-width: 45px;
+  color: #7C8DB5;
+  margin-left: 5px;
+}

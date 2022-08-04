@@ -1,7 +1,6 @@
 .rankList {
-  background-color: #fff;
-  opacity: 0.8;
-  border-radius: 15px;
+  background-color: rgba($color: #fff, $alpha: 0.8);
+  border-radius: 20px;
   margin: 20px 0;
 }
 
@@ -21,14 +20,14 @@
   color: #2E3271;
   font-size: 18px;
   font-weight: bold;
-  margin: 0 10px;
+  margin: 0 20px;
 }
 
 .action {
   display: flex;
   justify-content: space-between;
   width: 50px;
-  margin: 0 10px;
+  margin: 0 20px;
 }
 
 .rankList-body {

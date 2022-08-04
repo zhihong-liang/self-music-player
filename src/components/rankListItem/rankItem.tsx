@@ -1,8 +1,7 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Card, CardMedia, CardActionArea, CardContent, Box } from '@mui/material';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import StopIcon from '@mui/icons-material/Stop';
-import Typography from '@mui/material/Typography';
 
 import style from './rankItem.module.scss'
 
@@ -20,8 +19,8 @@ const Index = ({ img = '', musicName = '' }: IProps) => {
 
   return (
     <Card className={style['rankItem']} sx={{ maxWidth: 200 }}>
-      <CardActionArea onClick={handleClick}>
-        <Box className={style['bgmImgBox']}>
+      <Box className={style['bgmImgBox']}>
+        <CardActionArea onClick={handleClick}>
           <CardMedia
             component="img"
             height="140"
@@ -31,12 +30,11 @@ const Index = ({ img = '', musicName = '' }: IProps) => {
           <div className={style['playBtn']}>
             {isPlay ? <StopIcon sx={{ color: '#ffffff', fontSize: 17 }} /> : <PlayArrowIcon sx={{ color: '#ffffff', fontSize: 17 }} />}
           </div>
-        </Box>
-      </CardActionArea>
-      <CardContent>
-        <Typography variant="subtitle2" component="div">
-          {musicName}
-        </Typography>
+        </CardActionArea>
+      </Box>
+      <CardContent sx={{padding: '0 18px 5px'}}>
+        <div className={style['music-name']}>{musicName}</div>
+        <div className={style['describe']}>Top 50</div>
       </CardContent>
     </Card>
   )
